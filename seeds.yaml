@@ -1,0 +1,9 @@
+version: "1"
+seeds:
+  - name: "fng_data"
+    url: "https://raw.githubusercontent.com/EzTrades-Official/fear-and-greed-index/main/fng_data.csv"
+    format: "csv"
+    delimiter: ","
+    columns: ["timestamp", "value", "value_classification"]
+    time_column: "timestamp"
+    time_format: "MM/dd/yyyy"
